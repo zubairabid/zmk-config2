@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: duffrind
+      url-base: https://github.com/duffrind
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: duffrind
       revision: main
       import: app/west.yml
   self:
