@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: duffrind
-      url-base: https://github.com/duffrind
+    - name: zubairabid
+      url-base: https://github.com/zubairabid
   projects:
     - name: zmk
-      remote: duffrind
-      revision: main
+      remote: zubairabid
+      revision: lotus58_oled
       import: app/west.yml
   self:
     path: config
