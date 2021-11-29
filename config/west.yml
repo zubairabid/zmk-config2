@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zubairabid
-      revision: main
+      revision: shield/lotus58_oledwork
       import: app/west.yml
   self:
     path: config
