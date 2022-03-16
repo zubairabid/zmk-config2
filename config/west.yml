@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zubairabid
-      url-base: https://github.com/zubairabid
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: zubairabid
-      revision: shield/lotus58_oledwork
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
